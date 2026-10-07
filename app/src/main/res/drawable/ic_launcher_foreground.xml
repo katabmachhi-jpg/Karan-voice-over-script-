@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Left Sound Waves -->
+    <path
+        android:pathData="M31,48 C29,51 29,57 31,60"
+        android:strokeColor="#A855F7"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M24,43 C21,49 21,59 24,65"
+        android:strokeColor="#06B6D4"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Right Sound Waves -->
+    <path
+        android:pathData="M77,48 C79,51 79,57 77,60"
+        android:strokeColor="#A855F7"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M84,43 C87,49 87,59 84,65"
+        android:strokeColor="#06B6D4"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Microphone Capsule Body -->
+    <path
+        android:pathData="M46,38 C46,33.58 49.58,30 54,30 C58.42,30 62,33.58 62,38 L62,54 C62,58.42 58.42,62 54,62 C49.58,62 46,58.42 46,54 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="46"
+                android:startY="30"
+                android:endX="62"
+                android:endY="62"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F5D4" />
+                <item android:offset="1.0" android:color="#9D4EDD" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Microphone Capsule Highlights -->
+    <path
+        android:pathData="M51,34 C51,34 53,33 55,33"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Microphone U-Cradle / Arc -->
+    <path
+        android:pathData="M40,51 C40,60 46,67 54,67 C62,67 68,60 68,51"
+        android:strokeColor="#E0E7FF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Stem & Base Stand -->
+    <path
+        android:pathData="M54,67 L54,76"
+        android:strokeColor="#E0E7FF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M44,76 L64,76"
+        android:strokeColor="#00F5D4"
+        android:strokeWidth="3.4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- AI Sparkle / Glowing Star on top-right -->
+    <path
+        android:pathData="M69,27 L70.5,31.5 L75,33 L70.5,34.5 L69,39 L67.5,34.5 L63,33 L67.5,31.5 Z"
+        android:fillColor="#00F5D4" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "KARAN VOICE AI",
+  "description": "Convert Hindi, English, and Hinglish text into natural AI voice with YouTube creator mode, voice controls, audio player, and local history.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
